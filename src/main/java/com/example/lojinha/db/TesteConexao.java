@@ -4,7 +4,7 @@ import com.example.lojinha.model.dao.ProdutoDAO;
 import com.example.lojinha.model.dao.impl.ProdutoDaoJDBC;
 
 public class TesteConexao {
-    public static void main(String[] args) {
+    public static void maibn(String[] args) {
 
         ProdutoDAO dao = new ProdutoDaoJDBC();
 
@@ -35,7 +35,7 @@ public class TesteConexao {
 
         dao.inserir(c);**/
 
-        dao.removerPorId(6);
+        dao.removerPorId(7);
 
         dao.calcularTotalEstoque();
 
